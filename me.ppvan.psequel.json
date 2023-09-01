@@ -38,7 +38,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/ppvan/psequel",
-                    "commit": "33a0704cbbc7ab7ef8483404a4578319c001b1f9"
+                    "commit": "ca847d30b108b744b3a904a4aed03c112dfa13e9"
                 }
             ],
             "modules": [
