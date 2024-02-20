@@ -1,11 +1,8 @@
 {
     "app-id": "me.ppvan.psequel",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
-    "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.vala"
-    ],
     "command": "psequel",
     "finish-args": [
         "--share=network",
@@ -38,8 +35,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/ppvan/psequel",
-                    "tag": "v0.1.8",
-                    "commit": "978313c4d93147b67ae330d2232a47744b75dc51"
+                    "commit": "ba6d23da221af99986785375213ba8bab502ece6"
                 }
             ],
             "modules": [
@@ -68,8 +64,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://ftp.postgresql.org/pub/source/v15.3/postgresql-15.3.tar.bz2",
-                            "sha256": "ffc7d4891f00ffbf5c3f4eab7fbbced8460b8c0ee63c5a5167133b9e6599d932"
+                            "url": "https://ftp.postgresql.org/pub/source/v16.2/postgresql-16.2.tar.bz2",
+                            "sha256": "446e88294dbc2c9085ab4b7061a646fa604b4bec03521d5ea671c2e5ad9b2952"
                         }
                     ]
                 },
