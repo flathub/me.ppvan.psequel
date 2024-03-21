@@ -35,7 +35,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/ppvan/psequel",
-                    "commit": "ba6d23da221af99986785375213ba8bab502ece6"
+                    "commit": "5327655f5e2c52a06610eadd9016fc150e2022a3"
                 }
             ],
             "modules": [
@@ -66,6 +66,17 @@
                             "type": "archive",
                             "url": "https://ftp.postgresql.org/pub/source/v16.2/postgresql-16.2.tar.bz2",
                             "sha256": "446e88294dbc2c9085ab4b7061a646fa604b4bec03521d5ea671c2e5ad9b2952"
+                        }
+                    ]
+                },
+                {
+                    "name": "libcsv",
+                    "buildsystem": "meson",
+                    "sources": [
+                        {
+                            "type": "git",
+                            "url": "https://github.com/ppvan/libcsv",
+                            "commit": "c8f01b8b4aa8d8156a624405b8a4c646e3f6efaa"
                         }
                     ]
                 },
