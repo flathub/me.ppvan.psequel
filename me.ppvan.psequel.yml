@@ -29,7 +29,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/ppvan/psequel
-        commit: 74b995adc2cde2709ab30e757f1bf5bfc52c4a00
+        commit: 8d4f87460a4ee4ef14223f8f5931b3a0c236bfbf
     modules:
       - name: blueprint-compiler
         buildsystem: meson
